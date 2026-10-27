@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0A2540">
+<title>Malik Super Wholesaler</title>
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="hdr">
+  <div class="brand">
+    <img src="logo.png" alt="" class="logo">
+    <div><strong>Malik Super Wholesaler</strong><span>Stock, sales and purchases</span></div>
+  </div>
+  <button class="icon-btn light" data-act="settings" aria-label="Backup and settings"><img class="ico" src="icons/settings.svg" alt=""></button>
+</header>
+
+<main id="view"></main>
+
+<nav class="nav" aria-label="Main">
+  <button data-act="go" data-v="home"><img class="ico" src="icons/home.svg" alt=""><span>Home</span></button>
+  <button data-act="go" data-v="stock"><img class="ico" src="icons/stock.svg" alt=""><span>Stock</span></button>
+  <button data-act="go" data-v="sales"><img class="ico" src="icons/sales.svg" alt=""><span>Sales</span></button>
+  <button data-act="go" data-v="purchases"><img class="ico" src="icons/purchases.svg" alt=""><span>Purchases</span></button>
+  <button data-act="go" data-v="parties"><img class="ico" src="icons/parties.svg" alt=""><span>Parties</span></button>
+  <button data-act="go" data-v="expenses"><img class="ico" src="icons/expenses.svg" alt=""><span>Expenses</span></button>
+</nav>
+
+<div id="modal" hidden></div>
+<div id="toast" role="status"></div>
+<script src="js/app.js"></script>
+</body>
+</html>
